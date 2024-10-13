@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+
+
+    
+      <class name="Airlines.project.airlinesproject.AppTest"/>
+      <class name="Airlines.project.airlinesproject.Testcase1_New_user"/>
+      <class name="Airlines.project.airlinesproject.Testcase2_login_valid_cred"/>
+      <class name="Airlines.project.airlinesproject.Testcase3_invalid_cred"/>
+      <class name="Airlines.project.airlinesproject.Testcase4_oneway_trip"/>
+      <class name="Airlines.project.airlinesproject.Testcase5_roundtrip_search"/>
+      <class name="Airlines.project.airlinesproject.Testcase6_different_class_search"/>
+      <class name="Airlines.project.airlinesproject.Testcase7_multi_city_search"/>
+      <class name="Airlines.project.airlinesproject.Testcase8_seat_selection"/>
+      <class name="Airlines.project.airlinesproject.Testcase9_book_multiple_passengers"/>
+      <class name="Airlines.project.airlinesproject.Testcase10_flight_details_cancellation"/>
+      <class name="Airlines.project.airlinesproject.Testcase12_Login_search_flight_logout"/>
+      <class name="Airlines.project.airlinesproject.Testcase13_apply_coupon"/>
+      <class name="Airlines.project.airlinesproject.Testcase_14_search_roundtrip_domestic"/>
+      <class name="Airlines.project.airlinesproject.Testcase15_payment_page_creditcard"/>
+     
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
